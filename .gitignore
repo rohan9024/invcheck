@@ -1,0 +1,79 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Python testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Python tooling
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+
+# ==============================
+# Node.js / TypeScript
+# ==============================
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Test coverage
+coverage/
+
+# ==============================
+# Environment variables / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# IDEs / Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Operating System
+# ==============================
+.DS_Store
+.DS_Store?
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+*.log
+*.tmp
+*.bak
+*.orig

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "invcheck"
+version = "1.0.0"
+description = "Deterministic Arithmetic, Tax & E-Invoice JSON Verifier and Auto-Repair Engine for Docling, MarkItDown, and VLM Extractors"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.9"
+authors = [
+    { name = "Rohan & invcheck Contributors" }
+]
+keywords = [
+    "invoice",
+    "docling",
+    "markitdown",
+    "vlm",
+    "tax-calculation",
+    "reducto",
+    "iban",
+    "ein",
+    "vat",
+    "en16931",
+    "deterministic-math",
+    "mcp"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial :: Accounting",
+]
+dependencies = []
+
+[project.scripts]
+invcheck = "invcheck.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/invcheck"]

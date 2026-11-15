@@ -1,0 +1,9 @@
+{
+  "invoice_number": "INV-1001",
+  "items": [
+    {"description": "Widget", "quantity": 2, "unit_price": 10.00, "line_total": 20.00}
+  ],
+  "subtotal": 20.00,
+  "tax": 3.80,
+  "total": 23.80
+}

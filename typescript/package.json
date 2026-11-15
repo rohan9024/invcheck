@@ -1,0 +1,46 @@
+{
+  "name": "invcheck",
+  "version": "1.0.0",
+  "description": "Deterministic Arithmetic, Tax & E-Invoice JSON Verifier and Auto-Repair Engine for Docling, MarkItDown, and VLM Extractors",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "invcheck": "./dist/cli.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && tsx --test test/invcheck.test.ts"
+  },
+  "keywords": [
+    "invoice",
+    "docling",
+    "markitdown",
+    "vlm-extraction",
+    "reducto",
+    "tax-validator",
+    "iban",
+    "ein",
+    "vat",
+    "en16931",
+    "deterministic-math",
+    "ai-agent",
+    "mcp"
+  ],
+  "author": "Rohan & invcheck Contributors",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.4.0",
+    "tsx": "^4.19.3"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "invoice_number": "INV-1001",
+  "items": [
+    {
+      "description": "Widget",
+      "quantity": 2,
+      "unit_price": 10.0,
+      "line_total": 20.0
+    }
+  ],
+  "subtotal": 20.0,
+  "tax": 3.8,
+  "total": 23.8
+}
