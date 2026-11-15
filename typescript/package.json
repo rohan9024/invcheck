@@ -1,6 +1,6 @@
 {
   "name": "invcheck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic Arithmetic, Tax & E-Invoice JSON Verifier and Auto-Repair Engine for Docling, MarkItDown, and VLM Extractors",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
